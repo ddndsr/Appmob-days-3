@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="10dp">
+
+
+    <TableRow
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivhospital"
+            android:layout_weight="1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:onClick="ochospital"
+            android:src="@drawable/hospital"/>
+
+        <ImageView
+            android:id="@+id/ivpolice"
+            android:layout_weight="1"
+            android:onClick="ocpolice"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/police"/>
+
+    </TableRow>
+    <TableRow
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivshop"
+            android:layout_weight="1"
+            android:onClick="ocshop"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/shop"/>
+        <ImageView
+            android:id="@+id/ivschool"
+            android:layout_weight="1"
+            android:onClick="ocschool"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/school"/>
+
+    </TableRow>
+
+</LinearLayout>
